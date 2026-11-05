@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief of Staff"
+  short_description: "Coordinate projects, workers, checks, and handoffs"
+  default_prompt: "Use $cos to show my projects and tasks."

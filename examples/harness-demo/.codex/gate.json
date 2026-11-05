@@ -1,0 +1,8 @@
+{
+  "steps": [
+    { "name": "syntax", "run": "node --check src/index.mjs", "timeoutSeconds": 10 },
+    { "name": "tests", "run": "npm test", "timeoutSeconds": 30 }
+  ],
+  "tries": 5,
+  "rules": ["Do not weaken tests or the gate to make a change pass."]
+}

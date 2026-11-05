@@ -1,0 +1,4 @@
+interface:
+  display_name: "Until Ready"
+  short_description: "Implement tasks with bounded checks and fix cycles"
+  default_prompt: "Use $until-ready to complete this task and run its checks."
