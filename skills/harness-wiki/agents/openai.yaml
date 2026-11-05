@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Memory"
+  short_description: "Keep project decisions and handoffs between chats"
+  default_prompt: "Use $harness-wiki to show the decisions for this project."

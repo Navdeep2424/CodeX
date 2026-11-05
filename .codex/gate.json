@@ -1,0 +1,8 @@
+{
+  "steps": [
+    { "name": "syntax", "run": "node --check harness.mjs && node --check install.mjs && node --check demo.mjs && node --check lib/store.mjs && node --check lib/gate.mjs && node --check lib/hook.mjs", "timeoutSeconds": 30 },
+    { "name": "regression tests", "run": "npm test", "timeoutSeconds": 120 }
+  ],
+  "tries": 5,
+  "rules": ["Preserve test assertions and readiness checks.", "Keep user state and credentials out of commits."]
+}
